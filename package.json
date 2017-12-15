@@ -4,8 +4,14 @@
   "description": "",
   "main": "scraper.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scraper.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "json2csv": "^3.11.5",
+    "mkdirp": "^0.5.1",
+    "x-ray": "^2.3.2"
+  }
 }
